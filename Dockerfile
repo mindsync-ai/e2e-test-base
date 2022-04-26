@@ -1,4 +1,4 @@
-FROM python:3.6-buster
+FROM python:3.9-buster
 
 RUN apt-get update && \
     apt-get install -y apt-transport-https default-jre-headless ffmpeg scrot sysstat unzip xvfb apt-utils && \

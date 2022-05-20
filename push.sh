@@ -20,7 +20,7 @@ while :; do
     shift
 done
 
-TAG="${1:-0.0.1}"
+TAG="${1:-0.0.3}"
 
 set -eux
 
